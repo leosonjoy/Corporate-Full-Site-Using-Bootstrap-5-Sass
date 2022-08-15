@@ -1,0 +1,18 @@
+.carousel-section {
+  padding: 60px 0 80px 0;
+
+  .carousel-indicators {
+    bottom: 0;
+    transform: translateY(50px);
+  }
+
+  .carousel-indicator-items {
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50% !important;
+    border: 2px solid gray;
+  }
+  .active {
+    background-color: gray;
+  }
+}

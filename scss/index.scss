@@ -1,0 +1,19 @@
+//customize bootstrap theme
+
+//import bootstrap sass
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "./nav/nav.scss";
+@import "./hero-section/hero.scss";
+@import "./footer/footer.scss";
+@import "./carousel/carousel.scss";
+@import "./call-to-action/cta.scss";
+@import "./specification/specification.scss";
+@import "./pricing/pricing.scss";
+@import "./contact/contact.scss";
+@import "./download/download.scss";
+@import "./about/about.scss";
+//custom code
+.extra-margin {
+  margin-top: 80px;
+}

@@ -1,0 +1,31 @@
+.specification-section {
+  padding: 60px 0;
+
+  .specs {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .specs li {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .specs li:before {
+    font-size: 2rem;
+    content: "\F26A";
+
+    position: absolute;
+    left: -50px;
+    margin-top: -6px;
+    color: #8b62ff;
+  }
+
+  .brands {
+    margin: 60px;
+
+    .page-base-image {
+      height: 4rem;
+    }
+  }
+}
